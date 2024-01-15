@@ -1,2 +1,1 @@
-# SV
-Unofficial Spruced Vanilla
+This is an unofficial github for Spruced Vanila's Wiki. Contact on me on my discord if you want me to take it down. I've honestly made it only to make my own and my friends's playthrough to be easier instead of joining the discord server and reswitching, apparently having a website is much easier, since its accessible via phones as well.
