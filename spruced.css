@@ -1,36 +1,32 @@
 * {
 
-    width: 1000px;
+    max-width: 1300px;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
-body {
-
-    background-color: bisque;
-
-}
 
 header {
 
-    color: black;
-    width: 1300px;
+    color: darkgreen;
+    max-width: 1300px;
     height: 250px;
-    border: 5px solid black;
+    background-color: palegreen;
 
 }
 
 header h1 {
 
-    font-size: 35px;
+    font-size: 45px;
     padding-top: 5px;
     padding-left: 5px;
     text-align: left;
     position: relative;
-    bottom: 125px;
-    left: 250px;
+    bottom: 145px;
+    left: 220px;
     height: auto;
+    font-weight: bold;
 
 }
 
@@ -41,23 +37,18 @@ header img {
     position: relative;
     left: 860px;
     top: 20px;
+    border: 3px solid black;
+    border-radius: 30px;
 
 }
 
 main {
 
-    border: 5px solid black;
     height: 600px;
-    width: 1300px;
+    max-width: 1300px;
     padding-left: 15px;
+    background-color: whitesmoke;
 
-}
-
-main h2 {
-
-    font-size: 23px;
-    font-weight: bold;
-    text-decoration: underline;
 }
 
 main p {
@@ -81,10 +72,11 @@ section {
 
     border: 3px solid black;
     position: relative;
-    left: 300px;
+    left: 500px;
     top: 50px;
     width: 600px;
     height: 230px;
+    background-color: cornsilk;
 
 }
 
@@ -122,4 +114,82 @@ section table a:hover {
     text-decoration: underline;
     color: blue;
     
+}
+
+.dslink {
+
+    text-align: left;
+    padding-left: 150px;
+    font-weight: bold;
+    
+}
+
+.dslink:hover {
+
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+hr {
+
+    position: relative;
+    left: 3px;
+    right: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 1100px;
+}
+
+nav {
+    
+    margin-top: 25px;
+    border: 5px solid black;
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    background-color: paleturquoise;
+}
+
+nav h2 {
+
+    font-size: 22px;
+    width: 295px;
+    text-align: center;
+    border-bottom: 5px solid black;
+    padding-bottom: 15px;
+
+}
+
+nav ol {
+
+    list-style-type: none;
+    position: relative;
+    left: 60px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ol li:hover {
+
+    cursor:pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+nav a:link {
+
+    text-decoration: none;
+    color: black;
+}
+
+nav a:visited {
+
+    color: black;
+}
+
+nav a:unvisited {
+
+    color: black;
 }
